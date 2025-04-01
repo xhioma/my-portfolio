@@ -1,0 +1,12 @@
+html{
+    font-family: IBM Plex Mono;
+}
+.circular-image {
+    width: 150px; /* Adjust size as needed */
+    height: 150px; /* Keep width and height equal for a perfect circle */
+    border-radius: 50%; /* Makes it circular */
+    border: 3px solid #666; /* rim colour */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Softens edges with a subtle shadow */
+    object-fit: cover; /* Ensures the image fills the circle properly */
+    object-position: top;
+}
